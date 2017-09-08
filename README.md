@@ -13,8 +13,9 @@ A simple digit captcha solver with TensorFlow Estimator DNNClassifier.
 Install modules with pip (and not pip3 as tensorflow_serving not available in python3 yet)
 
 ```bash
-pip install tensorflow
-pip install tensorflow_serving
+sudo pip install glob2
+sudo pip install Image
+sudo pip install tensorflow_serving_api
 
 echo "deb [arch=amd64] http://storage.googleapis.com/tensorflow-serving-apt stable tensorflow-model-server tensorflow-model-server-universal" | sudo tee /etc/apt/sources.list.d/tensorflow-serving.list
 
